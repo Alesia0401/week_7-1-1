@@ -1,0 +1,98 @@
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.header,
+.left,
+.div,
+.div3,
+.right,
+.footercontainer,
+.footer {
+  padding: 2% 0;
+}
+
+.header,
+.left,
+.right,
+.footer {
+  text-align: center;
+}
+
+.sectioncontainer,
+.div3,
+.main,
+.footercontainer {
+  display: grid;
+}
+
+.sectioncontainer,
+.footercontainer {
+  margin: 0 2%;
+}
+
+.sectioncontainer {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  justify-content: center;
+  gap: 10px;
+}
+
+.div3 {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.nazvanie {
+  padding-bottom: 5%;
+}
+
+.main {
+  grid-template-columns: 2fr 1fr;
+}
+
+.footercontainer {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.div1,
+.div2,
+.div3,
+.footer {
+  padding: 10px 0;
+}
+
+.container {
+  background-color: rgb(189, 184, 184);
+  max-width: 80%;
+  margin: auto;
+}
+
+.left {
+  background-color: rgb(235, 250, 192);
+}
+
+.div {
+  background-color: rgb(231, 229, 119);
+}
+
+.right {
+  background-color: rgb(185, 211, 185);
+}
+
+.footer {
+  background-color: rgb(247, 247, 232);
+}
